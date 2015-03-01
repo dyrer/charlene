@@ -69,52 +69,7 @@ input[type="search"] {
 /* ## Forms
 --------------------------------------------- */
 
-input, textarea {
-    font-size: 16px;
-    padding: 3px;
-}
-
-input:focus,
-textarea:focus {
-    border: 1px solid #999;
-    outline: none;
-}
-
-input[type="checkbox"],
-input[type="image"],
-input[type="radio"] {
-    width: auto;
-}
-
-::-moz-placeholder {
-    color: #333;
-    font-weight: 300;
-    opacity: 1;
-}
-
-::-webkit-input-placeholder {
-    color: #333;
-    font-weight: 300;
-}
-
-input[type="button"],
-input[type="reset"],
-input[type="submit"],
-button {
-    background-color: #80949c;
-    border: 1px solid #667b83;
-    border-radius: 2px;
-    color: #fff;
-    opacity: 0.9;
-    padding: 4px 10px;
-}
-
-input:hover[type="submit"],
-input:hover[type="reset"],
-input:hover[type="button"],
-button:hover {
-    opacity: 1;
-}
+/* Removed Forms */
 
 /* ## WordPress
 --------------------------------------------- */
