@@ -469,43 +469,11 @@ img.aligncenter,
 
 /* ## Links
 --------------------------------------------- */
-a, 
-a:visited {
-    outline: none;
-    color: #80949c;
-    text-decoration: none
-}
-
-a:hover, 
-a:active {
-    color: #0f3647;
-}
-
-a:focus {
-    outline: thin dotted;
-}
-
-.entry-content a {
-    text-decoration: underline;
-}
-
-.entry-title a, 
-.sidebar-secondary a,
-.entry-title a:visited,
-.sidebar-secondary a:visited {
-    color: #333
-}
-
-.entry-title a:hover,
-.sidebar-secondary a:hover,
-.entry-title a:active,
-.sidebar-secondary a:active {
-    color: #80949c;
-}
+/* Removed Links */
 
 /* ## Typography
 --------------------------------------------- */
-
+/* Removed typography */
 
 /* ## Structure
 --------------------------------------------- */
