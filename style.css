@@ -60,13 +60,7 @@ input[type="search"] {
 
 /* ## Defaults  
 --------------------------------------------- */
-body {
-    background-color: #fff;
-    color: #444;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-}
+/* Removed Defaults */
 
 /* ## Global
 --------------------------------------------- */
