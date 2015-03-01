@@ -3,11 +3,19 @@
  * Organizes and loads necessary files/functions.
  *
  * @package Charlene\Functions
- * @author jeremyjaymes
+ * @author Athanasiadis
  * @since Charlene 2.0
  */
  
+   /**
+    * Enqueue scripts and styles
+    */
+function charlene_scripts() {
+	wp_enqueue_style( 'style-name', get_stylesheet_uri() . '/lib/semantic/semantic.css' );
+	wp_enqueue_script( 'script-name', get_template_directory_uri() . '/lib/semantic/semantic.js', array(), '1.0.0', true );
+        }
 
+add_action( 'wp_enqueue_scripts', 'charlene_scripts' );
 
 /**
  * Set up the content width value.
@@ -31,6 +39,8 @@ add_action( 'after_setup_theme', 'charlene_setup_theme' );
 if ( ! function_exists( 'charlene_setup_theme' ) ) :
 
 function charlene_setup_theme() {
+    
+ 
 
     // language support
     load_theme_textdomain( 'charlene', get_template_directory() . '/lib/languages' );
