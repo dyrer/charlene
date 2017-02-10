@@ -1,18 +1,16 @@
 /**
-Theme Name: Charlene
-Theme URI: http://papertreedesign.com/wordpress-themes/charlene
+Theme Name: Nova Charlene
+Theme URI: http://hyperthemes.online
 Description: A simple, user-friendly, two column theme that is meant to put focus on your content.
 Version: 2.0.5
-Author: Papertree Design
-Author URI: http://papertreedesign.com
+Author: Athanasiadis Evangelos
+Author URI: http://athanasiadis.me
 Tags: two-columns, right-sidebar, responsive-layout, post-formats, featured-images, translation-ready, editor-style, full-width-template, threaded-comments, white
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-GitHub Theme URI: https://github.com/jeremyjaymes/charlene
+GitHub Theme URI: https://gitlab.com/dyrer/charlene
 GitHub Branch: master
 
-Copyright (c) 2008 - 2014 Papertree Design 
-http://papertreedesign.com 
 */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
@@ -60,7 +58,7 @@ input[type="search"] {
     zoom:1;
 }
 
-/* ## Defaults  
+/* ## Defaults
 --------------------------------------------- */
 body {
     background-color: #fff;
@@ -245,7 +243,7 @@ blockquote {
     font-size: 18px;
     line-height: 1.4;
     margin: 0 0 24px 12px;
-    padding-left: 12px 
+    padding-left: 12px
 }
 
 blockquote cite,
@@ -280,7 +278,7 @@ small {
     font-size: 75%;
 }
 
-sup, 
+sup,
 sub {
     font-size: 75%;
     height: 0;
@@ -377,7 +375,7 @@ button:hover {
 }
 
 .alignright {
-    float:right; 
+    float:right;
 }
 
 .alignnone {
@@ -387,9 +385,9 @@ button:hover {
 }
 
 .aligncenter {
-    display:block; 
+    display:block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 blockquote.alignleft,
@@ -473,14 +471,14 @@ img.aligncenter,
 
 /* ## Links
 --------------------------------------------- */
-a, 
+a,
 a:visited {
     outline: none;
     color: #80949c;
     text-decoration: none
 }
 
-a:hover, 
+a:hover,
 a:active {
     color: #0f3647;
 }
@@ -493,7 +491,7 @@ a:focus {
     text-decoration: underline;
 }
 
-.entry-title a, 
+.entry-title a,
 .sidebar-secondary a,
 .entry-title a:visited,
 .sidebar-secondary a:visited {
@@ -518,7 +516,7 @@ h6 {
    color: #222;
    font-weight: 400;
    margin-bottom: 24px;
-} 
+}
 
 h1 {
     font-size: 38px;
@@ -528,8 +526,8 @@ h1 {
 h2 {
     font-size: 36px;
     line-height: 1.1;
-}  
-  
+}
+
 h3 {
     font-size: 28px;
     line-height: 1.1
@@ -602,7 +600,7 @@ p {
 .site-intro {
     border-bottom: 1px dotted #ddd;
     font-size: 18px;
-    margin-bottom: 48px;    
+    margin-bottom: 48px;
     padding-bottom: 24px;
 }
 
@@ -626,7 +624,7 @@ h1.intro-title {
 }
 
 /* ## Entry
----------------------------------------------- */ 
+---------------------------------------------- */
 .introp {
     font-size: 20px;
     line-height: 1.5;
@@ -700,11 +698,11 @@ h1.intro-title {
     padding: 10px
 }
 
-.entry img { 
-    background-color: #FFF; 
+.entry img {
+    background-color: #FFF;
     border: 1px solid #CCC;
     max-width: 460px;
-    padding: 2px; 
+    padding: 2px;
 }
 
 .navigation {
@@ -989,7 +987,7 @@ h1.intro-title {
     color: #80949c;
 }
 
-.charlene-recent-posts .entry-title a:hover, 
+.charlene-recent-posts .entry-title a:hover,
 .charlene-recent-posts .entry-title a:active {
     color: #0f3647;
 }
@@ -1024,7 +1022,7 @@ h1.intro-title {
     padding: 3px 5px;
 }
 
-/* ## Footer 
+/* ## Footer
 --------------------------------------------- */
 .site-info {
     border-top:6px solid #222;
@@ -1036,7 +1034,7 @@ h1.intro-title {
     margin: 0;
 }
 
-/* ## Responsive 
+/* ## Responsive
 --------------------------------------------- */
 
 @media only screen and ( min-width: 768px ) {
@@ -1050,23 +1048,23 @@ h1.intro-title {
         max-width: 990px;
         padding: 0 20px;
     }
-    
+
     /* Grid
     http://chrisplaneta.com/free/negativegrid-generator/
     ------------------------------------------------------------ */
-    .col_1, 
-    .col_1p, 
-    .col_2, 
-    .col_2p, 
-    .col_3, 
-    .col_3p, 
-    .col_4, 
-    .col_4p, 
-    .col_5, 
-    .col_5p, 
-    .col_6, 
+    .col_1,
+    .col_1p,
+    .col_2,
+    .col_2p,
+    .col_3,
+    .col_3p,
+    .col_4,
+    .col_4p,
+    .col_5,
+    .col_5p,
+    .col_6,
     .col_6p {
-        float: left; 
+        float: left;
         margin-right: -100%;
         position: relative;
     }
@@ -1078,7 +1076,7 @@ h1.intro-title {
     .col_5{width: 82.83%;}
     .col_6{width: 100%;}
 
-    /* Columns with paddings*/ 
+    /* Columns with paddings*/
     .col_1p{width: 12.2%;padding: 0 1%;}
     .col_2p{width: 29.3%;padding: 0 1%;}
     .col_3p{width: 46.5%;padding: 0 1%;}
@@ -1086,7 +1084,7 @@ h1.intro-title {
     .col_5p{width: 80.8%;padding: 0 1%;}
     .col_6p{width: 98.0%;padding: 0 1%;}
 
-    /* Horizontal position of columns */ 
+    /* Horizontal position of columns */
     .push_0{margin-left:0%;}
     .push_1{margin-left:17.17%;}
     .push_2{margin-left:34.33%;}
@@ -1120,7 +1118,7 @@ h1.intro-title {
     .entry-footer a:after {
         content: " ("attr(href)") "
     }
-    
+
     a  {
         color: black;
         text-decoration: none;
@@ -1132,19 +1130,19 @@ h1.intro-title {
         display: none;
     }
 
-    .col_1, 
-    .col_1p, 
-    .col_2, 
-    .col_2p, 
-    .col_3, 
-    .col_3p, 
-    .col_4, 
-    .col_4p, 
-    .col_5, 
-    .col_5p, 
-    .col_6, 
+    .col_1,
+    .col_1p,
+    .col_2,
+    .col_2p,
+    .col_3,
+    .col_3p,
+    .col_4,
+    .col_4p,
+    .col_5,
+    .col_5p,
+    .col_6,
     .col_6p {
-        float: none; 
+        float: none;
         margin: 0;
         padding: 0;
         width: 100%;
