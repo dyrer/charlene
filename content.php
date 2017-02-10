@@ -5,12 +5,12 @@
  * @package Charlene
  * @subpackage Template
  * @author jeremyjaymes
- * @since Charlene 2.0
+ * @since Charlene 3.0
  */
 ?>
 
- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="http://schema.org/BlogPosting" role="article" > 
-             
+ <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemscope itemtype="http://schema.org/BlogPosting" role="article" >
+
    <header class="entry-header">
       <?php
          //Output post title
@@ -22,13 +22,13 @@
       ?>
 
       <div class="entry-meta">
-         <?php 
+         <?php
             printf( __( '<span class="byline vcard">Posted <time class="updated" datetime="%1$s" pubdate itemprop="datePublished">%2$s</time> by <span class="entry-author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><a class="url fn n" href="%3$s" itemprop="url" rel="author"><span class="entry-author_name" itemprop="name">%4$s</span></a></span></span>', 'charlene' ),
                esc_attr( get_the_date( 'c' ) ),
-               esc_html( get_the_date() ), 
-               esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ), 
+               esc_html( get_the_date() ),
+               esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
                get_the_author()
-            ); 
+            );
          ?>
 
          <?php if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) : ?>
@@ -36,14 +36,14 @@
          <?php endif; ?>
       </div><!-- entry-meta -->
    </header><!-- .entry-header -->
-   
+
    <?php if ( is_search() ) : //* Search page format ?>
    <div class="entry-summary" itemprop="articleBody">
       <?php the_excerpt(); ?>
-   </div><!-- .entry-summary -->  
+   </div><!-- .entry-summary -->
    <?php else : //* Archives and single posts ?>
    <div class="entry-content" itemprop="articleBody">
-      <?php 
+      <?php
          if ( is_single() && has_post_thumbnail() ) :
             the_post_thumbnail( 'post-full-width' );
          else:
@@ -52,7 +52,7 @@
             echo '</a>';
          endif;
 
-         the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'charlene' ) ); 
+         the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'charlene' ) );
 
          wp_link_pages( array(
             'before'      => '<nav class="page-links"><span class="page-links-title">' . __( 'Pages:', 'charlene' ) . '</span>',
@@ -61,17 +61,17 @@
             'link_after'  => '</span>',
          ) );
       ?>
-   </div><!-- .entry-content -->  
-   <?php endif; ?>              
-   
+   </div><!-- .entry-content -->
+   <?php endif; ?>
+
    <footer class="entry-footer">
       <?php
          if ( has_category() ) :
             printf( __( '<span class="entry-categories">Filed under: %s</span>', 'charlene' ), get_the_category_list(', ') );
          endif;
 
-         the_tags( '<span class="entry-tags" itemprop="keywords"><span class="tags-title">' . __( 'Tags: ', 'charlene' ) . '</span>', ', ', '</span>' ); 
-      ?>   
+         the_tags( '<span class="entry-tags" itemprop="keywords"><span class="tags-title">' . __( 'Tags: ', 'charlene' ) . '</span>', ', ', '</span>' );
+      ?>
    </footer>
 
 </article><!-- .post -->
