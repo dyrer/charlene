@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Charlene Theme 2.0\n"
+"POT-Creation-Date: 2015-04-24 15:52-0600\n"
+"PO-Revision-Date: 2015-04-24 15:52-0600\n"
+"Last-Translator: Jeremy Vossman <jeremy@papertreedesign.com>\n"
+"Language-Team:  <jeremy@papertreedesign.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:18
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:22
+#, php-format
+msgid ""
+"<p>It looks like the page you have requested no longer exists, you can "
+"return to the sites <a href=\"%s\">homepage</a> or try a search using the "
+"form below.</p>"
+msgstr ""
+
+#: ../archive.php:28
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../archive.php:31
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../archive.php:34
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:37
+msgid "Asides"
+msgstr ""
+
+#: ../archive.php:40
+msgid "Galleries"
+msgstr ""
+
+#: ../archive.php:43
+msgid "Images"
+msgstr ""
+
+#: ../archive.php:46
+msgid "Video"
+msgstr ""
+
+#: ../archive.php:49
+msgid "Quotes"
+msgstr ""
+
+#: ../archive.php:52
+msgid "Links"
+msgstr ""
+
+#: ../archive.php:55
+msgid "Audio"
+msgstr ""
+
+#: ../archive.php:58 ../taxonomy-post_format.php:43
+msgid "Archives"
+msgstr ""
+
+#: ../author.php:25
+#, php-format
+msgid "<h1 class=\"author-name fn n\" itemprop=\"name\">Author: %s</h1>"
+msgstr ""
+
+#: ../author.php:55 ../content-aside.php:59 ../content-audio.php:59
+#: ../content-author.php:30 ../content-gallery.php:59 ../content-image.php:59
+#: ../content-link.php:59 ../content-quote.php:59 ../content-video.php:59
+#: ../content.php:73
+msgid "Tags: "
+msgstr ""
+
+#: ../comments.php:23
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:35
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:26 ../content-audio.php:26 ../content-gallery.php:26
+#: ../content-image.php:26 ../content-link.php:26 ../content-quote.php:26
+#: ../content-video.php:26 ../content.php:26
+#, php-format
+msgid ""
+"<span class=\"byline vcard\">Posted <time class=\"updated\" datetime=\"%1$s"
+"\" pubdate itemprop=\"datePublished\">%2$s</time> by <span class=\"entry-"
+"author\" itemprop=\"author\" itemscope=\"itemscope\" itemtype=\"http://"
+"schema.org/Person\"><a class=\"url fn n\" href=\"%3$s\" itemprop=\"url\" rel="
+"\"author\"><span class=\"entry-author_name\" itemprop=\"name\">%4$s</span></"
+"a></span></span>"
+msgstr ""
+
+#: ../content-aside.php:35 ../content-audio.php:35 ../content-gallery.php:35
+#: ../content-image.php:35 ../content-link.php:35 ../content-quote.php:35
+#: ../content-video.php:35 ../content.php:35
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-aside.php:35 ../content-audio.php:35 ../content-gallery.php:35
+#: ../content-image.php:35 ../content-link.php:35 ../content-quote.php:35
+#: ../content-video.php:35 ../content.php:35
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-aside.php:35 ../content-audio.php:35 ../content-gallery.php:35
+#: ../content-image.php:35 ../content-link.php:35 ../content-quote.php:35
+#: ../content-video.php:35 ../content.php:35
+msgid "% Comments"
+msgstr ""
+
+#: ../content-aside.php:42 ../content-audio.php:42 ../content-gallery.php:42
+#: ../content-image.php:42 ../content-link.php:42 ../content-quote.php:42
+#: ../content-video.php:42 ../content.php:55 ../image.php:38
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-aside.php:45 ../content-audio.php:45 ../content-gallery.php:45
+#: ../content-image.php:45 ../content-link.php:45 ../content-quote.php:45
+#: ../content-video.php:45 ../content.php:58 ../image.php:41
+#: ../page-no-sidebar.php:31 ../page.php:31
+msgid "Pages:"
+msgstr ""
+
+#: ../content-aside.php:56 ../content-audio.php:56 ../content-author.php:27
+#: ../content-gallery.php:56 ../content-image.php:56 ../content-link.php:56
+#: ../content-quote.php:56 ../content-video.php:56 ../content.php:70
+#, php-format
+msgid "<span class=\"entry-categories\">Filed under: %s</span>"
+msgstr ""
+
+#: ../content-noposts.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-noposts.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-noposts.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-noposts.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../footer.php:18
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:19
+#, php-format
+msgid "Powered by %1$s and %2$s"
+msgstr ""
+
+#: ../functions.php:95 ../functions.php:97
+msgid "Site Intro"
+msgstr ""
+
+#: ../functions.php:105
+msgid "Sidebar Main"
+msgstr ""
+
+#: ../functions.php:107
+msgid ""
+"The main widget area. If the sidebar is split left and right this is the "
+"left area."
+msgstr ""
+
+#: ../functions.php:116
+msgid "After Post"
+msgstr ""
+
+#: ../functions.php:118
+msgid ""
+"A useful widget area which appears after the post single and before comments."
+msgstr ""
+
+#: ../functions.php:142
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../image.php:25
+msgid "Parent Post: "
+msgstr ""
+
+#: ../image.php:50
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:51
+msgid "Next Image"
+msgstr ""
+
+#: ../lib/functions/template-functions.php:20
+#: functions/template-functions.php:20
+msgid "Page"
+msgstr ""
+
+#: ../lib/functions/template-functions.php:26
+#: functions/template-functions.php:26
+msgid "All Posts Navigation"
+msgstr ""
+
+#: ../lib/functions/template-functions.php:32
+#: functions/template-functions.php:32
+msgid "&laquo; Previous"
+msgstr ""
+
+#: ../lib/functions/template-functions.php:33
+#: functions/template-functions.php:33
+msgid "Next &raquo;"
+msgstr ""
+
+#: ../lib/functions/template-functions.php:89
+#: functions/template-functions.php:89
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../lib/functions/theme-comments.php:25 functions/theme-comments.php:25
+msgid "(Edit)"
+msgstr ""
+
+#: ../lib/functions/theme-comments.php:26 functions/theme-comments.php:26
+msgid "F jS, Y"
+msgstr ""
+
+#: ../lib/functions/theme-comments.php:37 functions/theme-comments.php:37
+msgid ""
+"<span class=\"not-approved\">Your comment is awaiting moderation.</span>"
+msgstr ""
+
+#: ../lib/functions/theme-customizer.php:40 functions/theme-customizer.php:40
+msgid "Link Color"
+msgstr ""
+
+#: ../lib/functions/theme-customizer.php:48 functions/theme-customizer.php:48
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:26 widgets/recent-posts.php:26
+msgid "Charlene Theme Recent Posts Widget"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:27 widgets/recent-posts.php:27
+msgid "Recent Posts Widget for Charlene"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:37 ../lib/widgets/recent-posts.php:106
+#: widgets/recent-posts.php:37 widgets/recent-posts.php:106
+msgid "Recently Written"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:109 widgets/recent-posts.php:109
+msgid "Title:"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:112 widgets/recent-posts.php:112
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../lib/widgets/recent-posts.php:114 widgets/recent-posts.php:114
+msgid "(at most 10)"
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../taxonomy-post_format.php:22
+msgid "Aside Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:25
+msgid "Image Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:28
+msgid "Video Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:31
+msgid "Audio Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:34
+msgid "Quote Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:37
+msgid "Link Archives"
+msgstr ""
+
+#: ../taxonomy-post_format.php:40
+msgid "Gallery Archives"
+msgstr ""
